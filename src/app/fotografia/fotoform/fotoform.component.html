@@ -1,0 +1,43 @@
+
+<div class="row mb-2">
+  <div class="col-md-6">
+    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+      <div class="col p-4 d-flex flex-column position-static">
+        <strong class="d-inline-block mb-2 text-primary">Adicionando imagens</strong>
+        <h3 class="mb-0">Como fazer?</h3>
+        <div class="mb-1 text-muted">tutorial</div>
+        <p class="card-text mb-auto">Para adicionar uma imagem, é so colar o link da url da imagem que você pegou na internet e colar no campo "imagem da seleção".</p>
+        
+      </div>
+      
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+      <div class="col p-4 d-flex flex-column position-static">
+        <strong class="d-inline-block mb-2 text-success">Adicionando título</strong>
+        <h3 class="mb-0">Como Fazer?</h3>
+        <div class="mb-1 text-muted">Tutorial</div>
+        <p class="mb-auto">Só digitar o título para a imagem que você queira adicionar, no campo "nome da seleção".</p>
+        
+      </div>
+      
+    </div>
+  </div>
+</div>
+<div class="container mt-5">
+    <form #form="ngForm" (ngSubmit)="submit(form)">
+        <div class="form-group" >
+          <label>Imagem da seleção:</label>
+          <input type="text" class="form-control"  placeholder="http://minha_foto.com" name="img" ngModel>
+        </div>
+    
+        <div class="form-group">
+          <label for="exampleInputPassword1">Nome da seleção</label>
+          <input type="text" class="form-control" placeholder="Digite a seleção" name="titulo" ngModel>
+        </div>        
+        <button type="submit" class="btn btn-primary" >Adicionar</button>
+      </form>
+    
+
+</div>

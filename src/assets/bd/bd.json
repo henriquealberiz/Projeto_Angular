@@ -1,0 +1,24 @@
+{
+  "fotos": [
+    {
+      "img": "https://th.bing.com/th/id/OIP.UqbEJIQFdAdk9AX1rbu49AHaE8?pid=ImgDet&rs=1",
+      "titulo": "Qatar",
+      "id": 1
+    },
+    {
+      "img": "https://th.bing.com/th/id/OIP.Ju8iZHhY8lMV7HiyShr59AHaE7?pid=ImgDet&rs=1",
+      "titulo": "Equador",
+      "id": 2
+    },
+    {
+      "img": "https://th.bing.com/th/id/R.2d9d502080f1c284a6db79e69892cab1?rik=OKIOoIy3HZHaPQ&riu=http%3a%2f%2fgeo5.net%2fimagens%2fbandeira-do-senegal-2000px.png&ehk=J3LjxQW66YLKAIAQ2Sn9ncYEM6XOMDz%2fI4qRUubMKgY%3d&risl=&pid=ImgRaw&r=0",
+      "titulo": "Senegal",
+      "id": 3
+    },
+    {
+      "img": "https://www.marinekauppa.com/app/uploads/2018/03/the_netherlands_flag.jpg",
+      "titulo": "Holanda",
+      "id": 4
+    }
+  ]
+}

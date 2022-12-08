@@ -1,0 +1,22 @@
+<div class="p-5 mb-4 bg-light rounded-2">
+  <div class="container-fluid py-5">
+    <h1 class="display-5 fw-bold">Classificatória da Copa do Mundo</h1>
+    <p class="col-md-8 fs-4">Na primeira fase, os 32 países classificados para foram divididos em oito grupos com quatro seleções. As duas primeiras de cada grupo se classificam para a fase final, que é dividida em oitavas de final, quartas de final, semifinais e na grande final. O sorteio dos grupos da Copa</p>
+    
+  </div>
+</div>
+<H3 class ="text center">Seleções da Copa</H3>
+<div class="container mt-5 mb-2 " >
+  <div class="row" >
+    <div class="col-3"  *ngFor="let foto of fotos">
+      <div class="card">
+        <div class="card-image">
+          <app-foto [img]="foto.img"></app-foto>
+          <span class="card-title" >{{foto.titulo}}</span>          
+        </div>        
+        <button class="Black" (click) = "deletar(foto.id)">Deletar</button>        
+      </div>         
+    </div>
+     
+  </div>
+</div>
